@@ -1,0 +1,69 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: url(image2.jpeg) #f4f4f4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card{
+  background-image:url(pic2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 8px solid purple;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+header h1{
+  margin-bottom: 20px;
+  color:#f4eeee
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color:whitesmoke;
+}
+
+input[type="date"]{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  width:100%;
+  box-sizing: border-box;
+  margin-bottom:20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+button{
+  /*background-color: aquamarine;*/
+  padding:20px;
+  border: 1px solid rgb(239, 67, 96);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+button:hover{
+  background-color: rgb(31, 225, 199);
+  border: 1px solid blue;
+  transform:scale(1.1) ;
+}
+#currentAge {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #a50a0a;
+}
